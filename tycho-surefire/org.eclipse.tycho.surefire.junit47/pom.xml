@@ -18,6 +18,7 @@
 		<version>2.2.0</version>
 	</parent>
 	<artifactId>org.eclipse.tycho.surefire.junit47</artifactId>
+	<version>2.2.0-SOX14056</version>
 	<packaging>jar</packaging>
 	<name>Tycho Surefire OSGi JUnit 4.7 Runner</name>
 	<build>
@@ -34,7 +35,7 @@
 						<artifactItem>
 							<groupId>org.apache.maven.surefire</groupId>
 							<artifactId>surefire-junit47</artifactId>
-							<version>${surefire-version}</version>
+							<version>${surefire-version}-SOX14056</version>
 						</artifactItem>
 						<artifactItem>
 							<groupId>org.apache.maven.surefire</groupId>
